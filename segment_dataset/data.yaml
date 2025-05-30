@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 11
+names: ['a fire hydrant', 'bicycles', 'buses', 'chimneys', 'crosswalks', 'motorcycles', 'stairs', 'taxis', 'tractors', 'traffic lights']
+
+roboflow:
+  workspace: recaptcha-100
+  project: recaptcha-450
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/recaptcha-100/recaptcha-450/dataset/3
