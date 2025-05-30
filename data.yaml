@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: ./train/images
+val: ./valid/images
+test: ./test/images
 
 nc: 11
 names: ['a fire hydrant', 'bicycles', 'buses', 'cars', 'chimneys', 'crosswalks', 'motorcycles', 'stairs', 'taxis', 'tractors', 'traffic lights']
