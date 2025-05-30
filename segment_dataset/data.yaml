@@ -2,7 +2,7 @@ train: ./train/images
 val: ./valid/images
 test: ./test/images
 
-nc: 11
+nc: 10
 names: ['a fire hydrant', 'bicycles', 'buses', 'chimneys', 'crosswalks', 'motorcycles', 'stairs', 'taxis', 'tractors', 'traffic lights']
 
 roboflow:
